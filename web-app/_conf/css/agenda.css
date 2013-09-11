@@ -1,0 +1,23 @@
+/*
+* Agenda specific CSS
+*/
+.event-edit label {
+    width: 100px;
+    display: inline-block;
+}
+
+.event-edit input, .event-edit input {
+    width: 50px;
+    text-align: right;
+}
+
+.colorpicker {
+    z-index: 9999;
+}
+
+.fc-event {
+    border-style: solid;
+    border-width: 0;
+    font-size: .85em;
+    cursor: default;
+}

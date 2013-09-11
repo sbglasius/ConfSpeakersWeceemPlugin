@@ -1,0 +1,72 @@
+.calendar {
+  width: 100%;
+  position: relative;
+  margin-top: 4px;
+}
+.calendar .calendar-hours {
+  position: relative;
+  max-width: 45px;
+}
+.calendar .calendar-hours .calendar-hour {
+  position: absolute;
+  right: 2px;
+}
+.calendar .calendar-block {
+  position: absolute;
+  left: 45px;
+  right: 0;
+}
+.calendar .calendar-block .calendar-track {
+  position: relative;
+  height: 100%;
+  float: left;
+}
+.calendar .calendar-block .calendar-track .calendar-schedule {
+  position: absolute;
+  left: 2px;
+  right: 2px;
+  border-radius: 3px;
+  text-shadow: none;
+    cursor: pointer;
+}
+.calendar .calendar-block .calendar-track .calendar-schedule .calendar-schedule-box {
+  position: relative;
+  width: 100%;
+  padding: 3px;
+}
+.calendar .calendar-block .calendar-track .calendar-schedule .calendar-schedule-box .calendar-schedule-time, .calendar .calendar-block .calendar-track .calendar-schedule .calendar-schedule-box .calendar-schedule-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.calendar .calendar-block .calendar-track .calendar-schedule .calendar-schedule-box .calendar-schedule-info {
+    position: absolute;
+    right: 12px;
+    top: 6px;
+}
+
+.calendar .calendar-breaks {
+  position: absolute;
+  left: 45px;
+  right: 0;
+}
+.calendar .calendar-breaks .calendar-break {
+  position: absolute;
+  left: 2px;
+  right: 2px;
+  border-radius: 3px;
+  background-color: lightgrey;
+  opacity: 0.8;
+  text-shadow: none;
+  padding-top: 2px;
+  padding-left: 4px;
+}
+
+.ui-tooltip {
+     max-width: 900px;
+}
+
+.ui-tooltip-content, .ui-tooltip-content p, .ui-tooltip-content li {
+    font-size: 10px;
+}
+
